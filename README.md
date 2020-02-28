@@ -16,5 +16,6 @@ Add this into `renovate.json`:
 
 ## Useful Links
 
-- [Configuration Options](https://renovatebot.com/docs/configuration-options)
-- [Renovatebot Presets](https://docs.renovatebot.com/config-presets/)
+- [Configuration options](https://docs.renovatebot.com/configuration-options/)
+- [Renovatebot presets](https://docs.renovatebot.com/config-presets/)
+- [GitHub hosted presets](https://docs.renovatebot.com/config-presets/#github-hosted-presets)
