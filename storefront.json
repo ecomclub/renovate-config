@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "config:base",
+    "group:allNonMajor"
+  ],
+  "schedule": [
+    "before 7am on monday"
+  ],
+  "rangeStrategy": "bump",
+  "semanticCommits": "enabled",
+  "semanticCommitType": "chore",
+  "labels": [
+    "dependencies"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePrefixes": [
+        "@ecomplus/storefront-"
+      ],
+      "schedule": [
+        "after 8am and before 4pm every weekday"
+      ],
+      "semanticCommitType": "fix"
+    }
+  ]
+}
