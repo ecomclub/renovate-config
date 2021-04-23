@@ -3,11 +3,16 @@
     "config:base",
     "group:allNonMajor"
   ],
+  "schedule": [
+    "before 7am on monday"
+  ],
+  "labels": [
+    "dependencies",
+    "automerge"
+  ],
   "rangeStrategy": "bump",
   "semanticCommits": "enabled",
-  "labels": [
-    "dependencies"
-  ],
+  "semanticCommitType": "chore",
   "packageRules": [
     {
       "matchPackagePrefixes": [
@@ -16,20 +21,11 @@
       "schedule": [
         "after 8am and before 4pm every weekday"
       ],
+      "labels": [
+        "dependencies"
+      ],
       "semanticCommitType": "fix",
       "automerge": true
-    },
-    {
-      "excludePackagePrefixes": [
-        "@ecomplus/storefront-"
-      ],
-      "schedule": [
-        "before 7am on monday"
-      ],
-      "semanticCommitType": "chore",
-      "addLabels": [
-        "automerge"
-      ]
     }
   ]
 }
