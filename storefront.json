@@ -7,22 +7,29 @@
     "before 7am on monday"
   ],
   "labels": [
-    "dependencies",
-    "automerge"
+    "dependencies"
   ],
   "rangeStrategy": "bump",
   "semanticCommits": "enabled",
   "semanticCommitType": "chore",
   "packageRules": [
     {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "lockFileMaintenance"
+      ],
+      "labels": [
+        "dependencies",
+        "automerge"
+      ]
+    },
+    {
       "matchPackagePrefixes": [
         "@ecomplus/storefront-"
       ],
       "schedule": [
         "after 8am and before 4pm every weekday"
-      ],
-      "labels": [
-        "dependencies"
       ],
       "semanticCommitType": "fix",
       "automerge": true
