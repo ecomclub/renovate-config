@@ -31,6 +31,10 @@
       "matchPackagePrefixes": [
         "@ecomplus/storefront-"
       ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "schedule": [
         "after 8am and before 4pm every weekday"
       ],
