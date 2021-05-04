@@ -38,7 +38,8 @@
         "after 8am and before 4pm every weekday"
       ],
       "semanticCommitType": "fix",
-      "automerge": true
+      "automerge": true,
+      "groupName": "Storefront non-major"
     }
   ]
 }
