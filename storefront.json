@@ -24,7 +24,8 @@
       "labels": [
         "dependencies",
         "automerge"
-      ]
+      ],
+      "groupName": "Others non-major"
     },
     {
       "matchPackagePrefixes": [
