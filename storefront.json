@@ -3,7 +3,7 @@
     "config:base"
   ],
   "schedule": [
-    "before 7am on monday"
+    "after 6am and before 10am on monday"
   ],
   "labels": [
     "dependencies"
@@ -36,7 +36,7 @@
         "patch"
       ],
       "schedule": [
-        "after 8am and before 4pm every weekday"
+        "after 11am and before 4pm every weekday"
       ],
       "semanticCommitType": "fix",
       "automerge": true,
