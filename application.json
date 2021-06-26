@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "config:base",
+    "schedule:earlyMondays"
+  ],
+  "labels": [
+    "dependencies"
+  ],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "lockFileMaintenance"
+      ],
+      "labels": [
+        "dependencies",
+        "automerge"
+      ],
+      "automerge": true,
+      "groupName": "All non-major"
+    }
+  ]
+}
