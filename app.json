@@ -21,7 +21,8 @@
         "automerge"
       ],
       "automerge": true,
-      "groupName": "All non-major"
+      "requiredStatusChecks": null,
+      "groupName": "all non-major"
     }
   ]
 }
