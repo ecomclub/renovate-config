@@ -16,6 +16,9 @@
         "patch",
         "lockFileMaintenance"
       ],
+      "excludePackagePatterns": [
+        "node"
+      ],
       "labels": [
         "dependencies",
         "automerge"
