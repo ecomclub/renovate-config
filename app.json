@@ -11,13 +11,13 @@
   "rangeStrategy": "bump",
   "packageRules": [
     {
+      "excludePackageNames": [
+        "node"
+      ],
       "matchUpdateTypes": [
         "minor",
         "patch",
         "lockFileMaintenance"
-      ],
-      "excludePackagePatterns": [
-        "node"
       ],
       "labels": [
         "dependencies",
