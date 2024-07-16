@@ -13,6 +13,9 @@
   "semanticCommitType": "chore",
   "packageRules": [
     {
+      "excludePackageNames": [
+        "node"
+      ],
       "excludePackagePrefixes": [
         "@ecomplus/storefront-"
       ],
