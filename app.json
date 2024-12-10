@@ -14,6 +14,9 @@
       "excludePackageNames": [
         "node"
       ],
+      "excludePackagePrefixes": [
+        "firebase-"
+      ],
       "matchUpdateTypes": [
         "minor",
         "patch",
