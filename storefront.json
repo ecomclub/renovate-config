@@ -17,7 +17,8 @@
         "node"
       ],
       "excludePackagePrefixes": [
-        "@ecomplus/storefront-"
+        "@ecomplus/storefront-",
+        "firebase-"
       ],
       "matchUpdateTypes": [
         "minor",
